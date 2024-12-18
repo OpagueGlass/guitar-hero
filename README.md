@@ -15,7 +15,8 @@ in synchronisation to the music to score points.
 
 ## Design
 
-The design details and justifications can be found in the [design.md](https://github.com/OpagueGlass/guitar-hero/blob/main/.github/design.md)
+The game is designed with the combination of functional and reactive programming. The design details and justifications 
+can be found in [`.github/design.md`](https://github.com/OpagueGlass/guitar-hero/blob/main/.github/design.md)
 
 ## How to Play
 
