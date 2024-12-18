@@ -59,8 +59,8 @@ score.
     npm run dev
     ```
 
-    Alternatively, you can skip steps 1-3 and play the live demo by using the following link to open the project directly 
-    in [StackBlitz](https://stackblitz.com/github/OpagueGlass/).
+    Alternatively, you can skip steps 1-3 and play the live demo by opening the project directly in 
+    [StackBlitz](https://stackblitz.com/github/OpagueGlass/).
 
 4. Navigate to `types.ts` and edit the `SONG_NAME` attribute in the `Constants` object to the desired song.
 
