@@ -15,7 +15,7 @@ in synchronisation to the music to score points.
 
 ## Design
 
-The design details and justifications can be found in the [design.md](https://raw.githubusercontent.com/OpagueGlass/guitar-hero/main/.github/design.md)
+The design details and justifications can be found in the [design.md](https://github.com/OpagueGlass/guitar-hero/blob/main/.github/design.md)
 
 ## How to Play
 
