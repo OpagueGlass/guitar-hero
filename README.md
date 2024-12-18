@@ -1,8 +1,8 @@
 # Guitar Hero
 
-<div align="center">
-![Guitar Hero Gameplay](https://raw.githubusercontent.com/OpagueGlass/guitar-hero/main/.github/guitar-hero.png)
-</div>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/OpagueGlass/guitar-hero/main/.github/guitar-hero.png" alt="Guitar Hero Gameplay"/>
+</p>
 
 Developing a browser-based rhythm game with the Functional Reactive Programming (FRP) approach by using Observables from
 RxJS to handle animation, user interaction, and other related stream behaviours.
@@ -32,9 +32,9 @@ function in `main.ts`. When the result of `getMinMax` is passed into `scaleToCol
 
 ### Model-View-Controller Architecture
 
-<div align="center">
-![MVC Architecture](https://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg)
-</div>
+<p align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" alt="MVC Architecture"/>
+</p>
 
 The Model-View-Controller architecture was utilised by separating the associated parts of the program into three related
 modules. This decouples the elements since each is responsible for a single functionality part. Through Separation of
@@ -97,17 +97,17 @@ generic types. This improves code reusability and modularity since these functio
 
 The green, red, blue, yellow columns corresponds to keys H, J, K, L respectively.
 
-Press the respective keys when the notes circles land on the buttons of the canvas. Notes are played when the keys are 
+Press the respective keys when the notes circles land on the buttons of the canvas. Notes are played when the keys are
 pressed, but with a random duration if the note somewhat aligns and a random note if it misses.
 
 Notes have tails if they are longer than 1 second, with the length of the tail corresponding to the length of the note.  
-Tails move down with the note circle, and must be held with the same key for the correct duration to be played 
+Tails move down with the note circle, and must be held with the same key for the correct duration to be played
 correctly, otherwise they will stop playing.
 
 The score multiplier starts at 1x and increases by 0.2 for every 10 consecutive notes hit (for example: 10 notes = 1.2x,
 20 notes = 1.4x), and resets to 1x when a note is missed.
 
-The game ends when the last note finishes playing. Press the R key to restart the game with the same song and high 
+The game ends when the last note finishes playing. Press the R key to restart the game with the same song and high
 score.
 
 ## Create custom songs
