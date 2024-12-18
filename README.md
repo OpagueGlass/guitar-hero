@@ -15,7 +15,7 @@ in synchronisation to the music to score points.
 
 ## Design
 
-The game is designed with the combination of functional and reactive programming. The design details and justifications 
+The game is designed with the combination of functional and reactive programming. The design details and justifications
 can be found in [`.github/design.md`](https://github.com/OpagueGlass/guitar-hero/blob/main/.github/design.md)
 
 ## How to Play
@@ -58,6 +58,9 @@ score.
     ```bash
     npm run dev
     ```
+
+    Alternatively, you can skip steps 1-3 and play the live demo by using the following link to open the project directly 
+    in [StackBlitz](https://stackblitz.com/github/OpagueGlass/).
 
 4. Navigate to `types.ts` and edit the `SONG_NAME` attribute in the `Constants` object to the desired song.
 
