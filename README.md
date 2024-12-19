@@ -7,6 +7,8 @@
 Developing a browser-based rhythm game with the Functional Reactive Programming (FRP) approach by using Observables from
 RxJS to handle animation, user interaction, and other related stream behaviours.
 
+Play the live demo at [StackBlitz](https://stackblitz.com/github/OpagueGlass/guitar-hero).
+
 ## Introduction
 
 Guitar hero is a rhythm game where players press keyboard keys to simulate playing a selection of songs on an
@@ -59,10 +61,10 @@ score.
     npm run dev
     ```
 
-    Alternatively, you can skip steps 1-3 and play the live demo by opening the project directly in 
+    Alternatively, you can skip steps 1-3 by opening the project directly in
     [StackBlitz](https://stackblitz.com/github/OpagueGlass/guitar-hero).
 
-4. Navigate to `types.ts` and edit the `SONG_NAME` attribute in the `Constants` object to the desired song.
+5. Navigate to `src/types.ts` and edit the `SONG_NAME` attribute in the `Constants` object to the desired song.
 
-5. Open the link in the browser and click the mouse to start the game. Refer to [How to Play](#How-to-Play) for gameplay
+6. Open the link in the browser and click the mouse to start the game. Refer to [How to Play](#How-to-Play) for gameplay
    instructions.
